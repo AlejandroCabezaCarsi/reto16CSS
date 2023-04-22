@@ -1,0 +1,143 @@
+.global { 
+    background-color: red;
+    display: inline-grid;
+    
+}
+
+.columnas {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    
+}
+.primeraColumna {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    border: ridge black 0.2em;
+    border-top: none;
+}
+
+.segundaColumna {
+    background-color: blue;
+    display: flex ;
+    flex-direction: column;
+    width: 40%;
+    border: ridge black 0.2em;
+    border-top: none;
+    border-left: none;
+} 
+
+.terceraColumna {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: ridge black 0.2em;
+    border-top: none;
+    border-left: none;
+}
+
+.primeraFila {
+    background-color: rgb(68, 112, 74);
+    display: flex;
+    justify-content: center;
+    border: ridge black 0.2em;
+}
+
+.contenidoPrimeraFila { 
+    display: flex;
+    justify-content: center;
+    color: rgb(124, 47, 47);
+}
+
+.contenidoPrimeraColumnaFila1Y2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    border-bottom: ridge black 0.2em;
+}
+
+.contenidoPrimeraColumnaFila345 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    border-bottom: ridge black 0.2em;
+
+}
+
+.contenidoPrimeraColumnaFila5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    
+
+}
+
+.contenidoSegundaColumnaFila1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    border-bottom: ridge black 0.2em;
+}
+
+.contenidoSegundaColumnaFila2Y3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.1em;
+
+    box-sizing: border-box;
+    border-bottom: ridge black 0.2em;
+}
+.contenidoSegundaColumnaFila2Y3Pequeño {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 6em ;
+    box-sizing: border-box;
+    border-right: ridge black 0.2em; ;
+    margin-left: 0em;
+}
+
+.contenidoSegundaColumnaFila2Y3Grande {
+margin-right: 2em;
+}
+
+.contenidoSegundaColumnaFila2Y310meses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 5.8em ;
+    margin-left: 0em; 
+    border-right: ridge black 0.2em; 
+}
+
+.contenidoSegundaColumnaFila2Y318meses {
+    margin-right: 2em;
+}
+
+.contenidoPrimeraColumnaFila4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    border-bottom: ridge black 0.2em;
+}
+
+.contenidoPrimeraColumnaFila5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    
+}
+
